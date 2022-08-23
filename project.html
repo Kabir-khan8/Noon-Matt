@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Noonmatt city</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="images/logo.png"</a>
+            <div class="nav-links" id="Navlinks">
+                <i class="fa fa-times" onclick="hidemenu()"></i>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="project.html">Project</a></li>
+                    <li><a href="details.html">Blog</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars"  onclick="showmenu()"></i>
+        </nav>
+
+        <h1>Projects In The City</h1>
+
+    </section>
+        
+    <section class="facilities">
+        <div class="row">
+            <div class="facilities-col">
+                <img src="images/park.jpg" alt="">
+                <h3>A Jogging Park</h3>
+                <p>A calm and relaxing park offering Yoga, outdoor Gym and Cardio Facility</p>
+            </div>
+
+            <div class="facilities-col">
+                <img src="images/hotel.jpg" alt="">
+                <h3> 5-Star Hotel</h3>
+                <p>A state of the art hotel that can accomodate 300 people and offer the best services in the world including a spa and cocktail bar</p>
+            </div>
+
+            <div class="facilities-col">
+                <img src="images/market.jpg" alt="">
+                <h3>Mega Market</h3>
+                <p>The largest and exquisite supermarket offering a wide variety of Grocery and Foodstuff</p>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="facilities-col">
+                <img src="images/real estate.jpg" alt="">
+                <h3>Real Estate</h3>
+                <p>Modern housing at affordable prices with playing areas for children.</p>
+            </div>
+
+            <div class="facilities-col">
+                <img src="images/station.jpg" alt="">
+                <h3> Gas Station and Service Center</h3>
+                <p>Total care of cars right inside the city with the best service crews and car wash</p>
+            </div>
+
+            <div class="facilities-col">
+                <img src="images/feat1.jpg" alt="">
+                <h3>Gaming Area</h3>
+                <p>An indoor and outdoor sports arena that enables everyone in the city to undertake a sport and keep fit</p>
+            </div>
+        </div>
+
+        
+
+    </section>
+
+
+   
+
+    <section class="footer">
+        <h4>About Us</h4>
+        <p>At NoonMatt City aim to develop a highly successful, profitable, all-round
+            large scale retailer offering service organisation that provides quality services in our
+            community around us 
+            and facilitating the growth of the community with us thus improving their state of living of Kenyans.</p>
+             <div class="icons">
+                <i class="fa fa-facebook"></i>
+                <i class="fa fa-instagram"></i>
+                <i class="fa fa-twitter"></i>
+                <i class="fa fa-linkedin"></i>
+             </div>
+
+             
+    </section>
+
+
+
+
+
+
+
+    <script>
+var Navlinks = document.getElementById("Navlinks");
+
+function showmenu(){
+    Navlinks.style.right = "0";
+}
+
+function hidemenu(){
+    Navlinks.style.right = "-200px";
+}
+    </script>
+</body>
+</html>
